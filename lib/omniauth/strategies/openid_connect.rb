@@ -17,10 +17,10 @@ module OmniAuth
         scheme: "https",
         host: nil,
         port: nil,
-        authorization_endpoint: "/authorize",
+        authorization_endpoint: "/auth",
         token_endpoint: "/token",
-        userinfo_endpoint: "/userinfo",
-        jwks_uri: '/jwk'
+        userinfo_endpoint: "/me",
+        jwks_uri: '/certs'
       }
       option :issuer
       option :discovery, false
