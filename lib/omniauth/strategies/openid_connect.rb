@@ -17,7 +17,7 @@ module OmniAuth
         scheme: "https",
         host: nil,
         port: nil,
-        authorization_endpoint: "/auth",
+        authorization_endpoint: "/auth?prompt=consent",
         token_endpoint: "/token",
         userinfo_endpoint: "/me",
         jwks_uri: '/certs'
